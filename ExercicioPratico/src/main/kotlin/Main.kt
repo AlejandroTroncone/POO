@@ -1,6 +1,8 @@
 package org.example
 
-fun main() {
+import org.example.app.ConsoleApp
 
+fun main() {
+    val app = ConsoleApp()
+    app.executar()
 }
-data class Person(var firstName: String, var lastName: String, var age: Int)
